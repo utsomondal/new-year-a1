@@ -2,15 +2,23 @@
 body {
   font-family: "Merriweather", serif;
 }
-header {
+/* common styles downside */
+header,
+.categories,
+.party {
   max-width: 85%;
   margin: 0 auto;
+  margin-bottom: 120px;
+}
+/* common styles upside  */
+header {
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../resources/Banner\ Image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 16px;
+  margin-top: 50px;
 }
 .head-title-container {
   text-align: center;
@@ -33,7 +41,7 @@ header {
 }
 .categories .offer-category .offer {
   color: #f00;
-
+  margin-top: 0;
   font-size: 88px;
   font-weight: 700;
   margin-bottom: 48px;
@@ -51,4 +59,45 @@ header {
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 48px;
+}
+
+.party {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  display: flex;
+  gap: 50px;
+}
+.party .party-items{
+  padding: 20px 0 20px 40px;
+}
+.party .year-img{
+  padding: 20px 40px 20px 0;
+}
+.party-items .party-item-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+.party-items .party-item-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 48px;
+}
+.party-items .join-party{
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+background: none;
+border: none;
+margin-left: 15px;
 }
