@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+body {
+  font-family: "Merriweather", serif;
+}
+header {
+  max-width: 85%;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+}
+.head-title-container {
+  text-align: center;
+  color: #fff;
+  padding: 60px 200px;
+}
+.head-title-container .title-1 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.head-title-container .title-2 {
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 0;
+}
