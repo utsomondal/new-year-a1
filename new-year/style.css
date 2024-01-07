@@ -27,3 +27,28 @@ header {
   font-weight: 900;
   margin-top: 0;
 }
+.categories .offer-category {
+  text-align: center;
+  font-family: Inter;
+}
+.categories .offer-category .offer {
+  color: #f00;
+
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.categories .offer-category .deals {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.categories .offer-category .all-categories {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 48px;
+}
