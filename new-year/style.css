@@ -5,7 +5,8 @@ header,
 .categories,
 .party,
 .party-place-sec,
-.coming-soon {
+.coming-soon,
+.holiday-sale {
   max-width: 85%;
   margin: 0 auto;
   margin-bottom: 120px;
@@ -130,7 +131,8 @@ header {
 }
 .party-place-sec .party-location .party-place,
 .party-place-sec .party-location .party-date,
-.party-place-sec .party-location .party-time {
+.party-place-sec .party-location .party-time,
+.holiday-sale .sale-container .holiday-text {
   color: #f00;
 }
 .party-place-sec .join-btn .join-now-btn {
@@ -191,4 +193,28 @@ header {
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 43px;
+}
+.holiday-sale .sale-container {
+  text-align: center;
+}
+.holiday-sale .sale-container .functional-text {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.holiday-sale .sale-container .sale {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+.holiday-sale .sale-container .holiday-sale-info {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
 }
