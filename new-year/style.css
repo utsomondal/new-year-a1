@@ -7,7 +7,8 @@ header,
 .party-place-sec,
 .coming-soon,
 .holiday-sale,
-.portfolio {
+.portfolio,
+.newsletter {
   max-width: 85%;
   margin: 0 auto;
   margin-bottom: 120px;
@@ -158,7 +159,7 @@ header {
   border-radius: 100%;
 }
 .coming-soon .left-column .best-offer,
-.portfolio .portfolio-container .gift-text{
+.portfolio .portfolio-container .gift-text {
   color: #f00;
   font-size: 24px;
   font-weight: 500;
@@ -166,7 +167,7 @@ header {
   margin-bottom: 16px;
 }
 .coming-soon .left-column .coming-soon-text,
-.portfolio .portfolio-container .portfolio-text{
+.portfolio .portfolio-container .portfolio-text {
   color: #070211;
   font-size: 48px;
   font-weight: 900;
@@ -222,17 +223,66 @@ header {
   font-size: 20px;
   font-weight: 500;
 }
-.images-container{
+.images-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 48px;
 }
-.images-container img{
+.images-container img {
   width: 30%;
   margin-bottom: 24px;
 }
-.images-container img:hover{
-    border-radius: 16px;
-    box-shadow: 0px 15px 15px -5px rgba(0, 0, 0, 0.5);
+.images-container img:hover {
+  border-radius: 16px;
+  box-shadow: 0px 15px 15px -5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.newsletter {
+  border-radius: 16px;
+  background-color: rgba(255, 0, 0, 0.05);
+  text-align: center;
+}
+.newsletter .newsletter-container .newsletter-text {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+.newsletter .newsletter-container .newsletter-info {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.subscription {
+  padding: 0 100px 50px 100px;
+  display: flex;
+  justify-content: center;
+}
+.newsletter-container {
+  padding: 50px 100px 0 100px;
+}
+.subscription .usermail {
+  width: 40%;
+  border-radius: 50px 0 0 50px;
+  padding: 25px 30px;
+  border: none;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+.subscription .newsletter-subscribe-btn {
+  border-radius: 0px 50px 50px 0px;
+  background-color: #f00;
+  border: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 25px 50px;
 }
