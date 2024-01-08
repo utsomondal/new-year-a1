@@ -5,7 +5,8 @@ body {
 /* common styles downside */
 header,
 .categories,
-.party {
+.party,
+.party-place-sec {
   max-width: 85%;
   margin: 0 auto;
   margin-bottom: 120px;
@@ -23,17 +24,18 @@ header {
 .head-title-container {
   text-align: center;
   color: #fff;
-  padding: 60px 200px;
 }
 .head-title-container .title-1 {
   font-size: 32px;
   font-weight: 400;
   margin-bottom: 16px;
+  padding: 150px 250px 0px 250px;
 }
 .head-title-container .title-2 {
   font-size: 72px;
   font-weight: 900;
   margin-top: 0;
+  padding: 0px 250px 150px 250px;
 }
 .categories .offer-category {
   text-align: center;
@@ -71,10 +73,10 @@ header {
   display: flex;
   gap: 50px;
 }
-.party .party-items{
+.party .party-items {
   padding: 20px 0 20px 40px;
 }
-.party .year-img{
+.party .year-img {
   padding: 20px 40px 20px 0;
 }
 .party-items .party-item-title {
@@ -91,13 +93,51 @@ header {
   margin-top: 0;
   margin-bottom: 48px;
 }
-.party-items .join-party{
-color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-background: none;
-border: none;
-margin-left: 15px;
+.party-items .join-party {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  background: none;
+  border: none;
+  margin-left: 25px;
+}
+/* party place section */
+.party-place-sec {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+  text-align: center;
+}
+.party-place-sec .party-location{
+  padding: 50px 60px;
+}
+.party-place-sec .party-location .place,
+.party-place-sec .party-location .date,
+.party-place-sec .party-location .time {
+  color: #070211;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.party-place-sec .party-location .party-place,
+.party-place-sec .party-location .party-date,
+.party-place-sec .party-location .party-time {
+  color: #f00;
+}
+.party-place-sec .join-btn .join-now-btn {
+  border-radius: 8px;
+  background-color: #f00;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  margin-top: 40px;
 }
