@@ -6,7 +6,8 @@ header,
 .party,
 .party-place-sec,
 .coming-soon,
-.holiday-sale {
+.holiday-sale,
+.portfolio {
   max-width: 85%;
   margin: 0 auto;
   margin-bottom: 120px;
@@ -156,14 +157,16 @@ header {
   border: 10px solid #f00;
   border-radius: 100%;
 }
-.coming-soon .left-column .best-offer {
+.coming-soon .left-column .best-offer,
+.portfolio .portfolio-container .gift-text{
   color: #f00;
   font-size: 24px;
   font-weight: 500;
   font-family: Inter;
   margin-bottom: 16px;
 }
-.coming-soon .left-column .coming-soon-text {
+.coming-soon .left-column .coming-soon-text,
+.portfolio .portfolio-container .portfolio-text{
   color: #070211;
   font-size: 48px;
   font-weight: 900;
@@ -172,7 +175,8 @@ header {
   margin-top: 0;
   margin-bottom: 22px;
 }
-.coming-soon .left-column .offer-info {
+.coming-soon .left-column .offer-info,
+.portfolio .portfolio-container .portfolio-info {
   color: rgba(7, 2, 17, 0.6);
   font-size: 20px;
   font-weight: 400;
@@ -217,4 +221,18 @@ header {
   font-family: Inter;
   font-size: 20px;
   font-weight: 500;
+}
+.images-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.images-container img{
+  width: 30%;
+  margin-bottom: 24px;
+}
+.images-container img:hover{
+    border-radius: 16px;
+    box-shadow: 0px 15px 15px -5px rgba(0, 0, 0, 0.5);
 }
