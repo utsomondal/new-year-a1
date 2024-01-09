@@ -175,7 +175,6 @@ header {
   font-size: 48px;
   font-weight: 900;
   font-family: Merriweather;
-  text-transform: capitalize;
   margin-top: 0;
   margin-bottom: 22px;
 }
@@ -297,6 +296,13 @@ footer{
   font-weight: 500;
   padding: 70px 100px;
 }
+.website .web-link{
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-family: inter;
+  font-weight: 500;
+}
 .address{
   display: flex;
   justify-content: space-between;
@@ -305,7 +311,7 @@ footer{
 .phone, .website{
   display: flex;
 }
-.phone-number, .website-link{
+.phone-number, .web-link{
   margin-left: 16px;
 }
 .social-links{
@@ -318,4 +324,11 @@ footer{
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
+}
+.copyright-unsubscribe a{
+  text-decoration: none;
+  color: #fff;
+}
+.address-right-column, .phone, .website{
+  margin-top: 10px;
 }
